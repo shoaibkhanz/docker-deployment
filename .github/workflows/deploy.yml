@@ -3,7 +3,8 @@ on:
   push:
     branches:
       - main # check your repo, your default branch might be master!
- 
+  pull_request:
+
 jobs:
   build:
     runs-on: ubuntu-latest
